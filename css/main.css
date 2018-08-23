@@ -5,7 +5,7 @@
 ::selection{background:#f2c115;color:#fff}
 ::-moz-selection{background:#f2c115;color:#fff}
 
-.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ellipsis,.answer_wrap .info_wrap h3{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ellipsis2,.ellipsis3{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
 .ellipsis2{-webkit-line-clamp:2}
 .ellipsis3{-webkit-line-clamp:3}
@@ -27,7 +27,7 @@ p{margin-bottom:0}
 .f22,.f22 a,.f22 p{font-size:.293333rem}
 .f24,.f24 a,.f24 p{font-size:.32rem}
 .f26,.f26 a,.f26 p{font-size:.346667rem}
-.f28,.f28 h3{font-size:.373333rem}
+.f28{font-size:.373333rem}
 .f30,.f30 a{font-size:.4rem}
 .f32,.f32 a{font-size:.426667rem}
 .f28,.f28 a{font-size:.373333rem}
@@ -102,15 +102,15 @@ img{max-width:100%}
 .maincolor{color:#1981f3}
 .red{color:#ff5050}
 .blue{color:#3781F4}
-.bluebg{background:#3781F4}
+.bluebg{background:#1981f3}
 
 .white,.white a,.white p{color:#fff}
 .bgfff{background:#fff}
 
 .i{display:inline-block}
-.radius{-webkit-border-radius:2rem;-moz-border-radius:2rem;-ms-border-radius:2rem;-o-border-radius:2rem;border-radius:2rem;overflow:hidden}
+.radius,.answer_wrap .info_wrap img{-webkit-border-radius:2rem;-moz-border-radius:2rem;-ms-border-radius:2rem;-o-border-radius:2rem;border-radius:2rem;overflow:hidden}
+.radius4{-webkit-border-radius:0.053333rem;-moz-border-radius:0.053333rem;-ms-border-radius:0.053333rem;-o-border-radius:0.053333rem;border-radius:0.053333rem;overflow:hidden}
 .radius10{-webkit-border-radius:.133333rem;-moz-border-radius:.133333rem;-ms-border-radius:.133333rem;-o-border-radius:.133333rem;border-radius:.133333rem;overflow:hidden}
-.radius100{-webkit-border-radius:1.333333rem;-moz-border-radius:1.333333rem;-ms-border-radius:1.333333rem;-o-border-radius:1.333333rem;border-radius:1.333333rem}
 
 .box_shadow{-webkit-box-shadow:0 0 .4rem rgba(19,42,207,.24);-moz-box-shadow:0 0 .4rem rgba(19,42,207,.24);-ms-box-shadow:0 0 .4rem rgba(19,42,207,.24);box-shadow:0 0 .4rem rgba(19,42,207,.24)}
 
@@ -155,7 +155,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#232d54', endC
 
 
 .expert_bg{background:url('../images/bg.jpg') 50% bottom fixed no-repeat;background-size:cover}
-.expert_describe{margin:0.933333rem 1.066667rem}
+.expert_describe{margin:0.933333rem 0.6rem}
 .expert_info{-webkit-border-radius:0.266667rem 0.266667rem 0 0;border-radius:0.266667rem 0.266667rem 0 0;padding:0.733333rem 0.266667rem 0.533333rem}
 .expert_info .avatar{width:2.0rem;height:2.0rem}
 .expert_info h2{padding:0.32rem 0 0.213333rem;margin-bottom:0.133333rem;position:relative;}
@@ -168,7 +168,23 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#232d54', endC
 .separate_wrap:before{content:'';position:absolute;top:0;left:0.333333rem;right:0.33rem;height:100%;background:#fff;}
 .separate_wrap .line{left:0.333333rem;right:0.33rem;top:50%;height:1px;border-top:1px dashed #ddd;margin-top:-1px;}
 
-.expert_describe .details{padding:0.346667rem 0.48rem 0.666667rem;-webkit-border-radius:0 0 0.266667rem 0.266667rem;border-radius:0 0 0.266667rem 0.266667rem;;box-shadow:0 10px 20px rgba(0,0,0,.2);line-height:0.48rem}
+.expert_describe .details{padding:0.346667rem 0.48rem 0.666667rem;-webkit-border-radius:0 0 0.266667rem 0.266667rem;border-radius:0 0 0.266667rem 0.266667rem;-webkit-box-shadow:0 10px 20px rgba(0,0,0,.2);box-shadow:0 10px 20px rgba(0,0,0,.2);line-height:0.48rem}
+
+.grey_bg{background: #f6f6f6}
+.qu_wrap{padding:0 0.4rem}
+.qu_wrap .header{padding: 0.346667rem 0}
+.qu_wrap .footer{border-top: 1px dashed #ddd;line-height: 1.2rem}
+.qu_wrap .footer i{margin-right: 0.133333rem}
+.qu_wrap .i_user{width: 0.44rem;height: 0.533333rem;background: url('../images/user1.png') 50% no-repeat;background-size: cover}
+.qu_wrap .i_time{width:0.533333rem;height: 0.533333rem;background: url('../images/time1.png') 50% no-repeat;background-size: cover}
+
+.answer_wrap{margin: 0.4rem 0.4rem 0.8rem}
+.answer_wrap .info_wrap img{width:1.6rem;height: 1.6rem;margin-right: 0.266667rem;}
+
+.answer_wrap .expert_des .btn{padding: 0.266667rem 0.693333rem}
+.answer_con{background: #F0F7FF;margin-top:0.48rem;line-height:0.56rem}
+.answer_con .details{padding: 0.533333rem;border: 1px solid #1981f3}
+.answer_con .arrow_t{left:0.6rem;top:-0.18rem;width:0.386667rem;height: 0.213333rem;background: url('../images/arrow_t.png') 50% no-repeat;background-size: cover}
 
 @media (min-width:540px){
 	header.pf{left:50%;margin-left:-5rem;width:540px}
