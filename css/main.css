@@ -184,7 +184,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#232d54', endC
 .answer_wrap .expert_des .btn{padding: 0.266667rem 0.693333rem}
 .answer_con{background: #F0F7FF;margin-top:0.48rem;line-height:0.56rem}
 .answer_con .details{padding: 0.533333rem;border: 1px solid #1981f3}
-.answer_con .arrow_t{left:0.6rem;top:-0.18rem;width:0.386667rem;height: 0.213333rem;background: url('../images/arrow_t.png') 50% no-repeat;background-size: cover}
+.answer_con .arrow_t{left:0.6rem;top:-0.213333rem;width:0.386667rem;height:0.226667rem;background: url('../images/arrow_t.png') 50% no-repeat;background-size: cover}
 
 @media (min-width:540px){
 	header.pf{left:50%;margin-left:-5rem;width:540px}
