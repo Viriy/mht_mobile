@@ -161,8 +161,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232d54', end
 .expert_info h2{padding:0.32rem 0 0.266667rem;margin-bottom: 0.266667rem;position: relative;}
 .expert_info h2:before{content: '';position: absolute;left: 50%;bottom: 0;width: 0.533333rem;height: 0.026667rem;background:#dce3ea;margin-left: -0.253333rem}
 .expert_info h1{margin-bottom:0.266667rem}
-.separate_wrap{height:0.666667rem;background:url('../images/l.png') no-repeat,url('../images/r.png') right 50% no-repeat;background-size:0.33rem 0.666667rem}
-.separate_wrap:before{content: '';position: absolute;top: 0;left: 0.33rem;right:0.33rem;height: 100%;background:#fff;}
+.separate_wrap{height:0.666667rem}
+.separate_wrap i{width: 0.333333rem;height:100%;top: 0}
+.separate_wrap .l{background:url('../images/l.png') no-repeat;background-size: cover;left: 0}
+.separate_wrap .r{background:url('../images/r.png') no-repeat;background-size: cover;right: 0}
+.separate_wrap:before{content: '';position: absolute;top: 0;left: 0.333333rem;right:0.33rem;height: 100%;background:#fff;}
 
 .expert_describe .details{padding: 0.733333rem 0.48rem;border-radius: 0 0 0.266667rem 0.266667rem}
 
