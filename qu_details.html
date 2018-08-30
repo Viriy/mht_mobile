@@ -8,52 +8,82 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <script src="js/resize.js"></script>
+    <link rel="stylesheet" href="css/mui.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body class="grey_bg">
-    <header class="pf gradientbg white" flex="main:center">
-        <a class="pa t0 l0 i i_back" href="javascript:history.go(-1);"></a>
-        <h1>专家在线</h1>
-    </header>
-    <article>
-        <div class="qu_wrap bgfff colorlight">
-            <div class="header f28">
-                <h2 class="f36 color mb10 bold">猕猴桃如何科学抹芽？</h2>
-                <div class="details">
-                    <p>猕猴桃如何科学抹芽？详细描述详细描述详细描述详细描述详细描述详细描述</p>
+    <div class="mui-off-canvas-wrap mui-draggable">
+        <!--侧滑菜单部分-->
+        <aside id="offCanvasSide" class="mui-off-canvas-right">
+            <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <a class="r_logo db" href=""></a>
+                    <nav class="aside_nav white f30">
+                        <a class="active" href=""><i class="icon_aside1"></i><span>首　　页</span></a>
+                        <a href=""><i class="icon_aside2"></i><span>走进佰瑞</span></a>
+                        <a href=""><i class="icon_aside3"></i><span>产业数据</span></a>
+                        <a href=""><i class="icon_aside4"></i><span>专家在线</span></a>
+                        <a href=""><i class="icon_aside5"></i><span>智慧园区</span></a>
+                        <a href=""><i class="icon_aside6"></i><span>质量安全</span></a>
+                        <a href=""><i class="icon_aside7"></i><span>手机商城</span></a>
+                    </nav>
                 </div>
             </div>
-            <div class="footer" flex="main:justify">
-                <p><i class="i i_user"></i>Viriy</p>
-                <p><i class="i i_time"></i>2018-06-05 13:58:50</p>
-            </div>
-        </div>
-        <div class="answer_wrap">
-            <div class="expert_des f28" flex="main:justify">
-                <div class="info_wrap flex1" flex>
-                    <img src="images/avatar.jpg" alt="">
-                    <div class="txt_wrap color flex1">
-                        <h4>雷玉山</h4>
-                        <h3 class="f36 maincolor mt10">首席科学家</h3>
+        </aside>
+        <!--主界面部分-->
+        <div class="mui-inner-wrap">
+            <header class="mui-bar mui-bar-nav gradientbg white tc" flex="main:center">
+                <a href="jabvascript:;" class="mui-action-back pa icon_back f42 t0 l0"></a>
+                <h1>专家在线</h1>
+                <a href="#offCanvasSide" class="pa icon_menu f42 t0 r0"></a>
+            </header>
+            <div class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <div class="qu_wrap bgfff f28 colorlight">
+                        <div class="header">
+                            <h2 class="f36 color mb bold">猕猴桃如何科学抹芽？</h2>
+                            <div class="details">
+                                <p>猕猴桃如何科学抹芽？详细描述详细描述详细描述详细描述详细描述详细描述</p>
+                            </div>
+                        </div>
+                        <div class="footer" flex="main:justify">
+                            <p><i class="icon_user1 f42 maincolor"></i>Viriy</p>
+                            <p><i class="icon_time1 f42 maincolor"></i>2018-06-05 13:58:50</p>
+                        </div>
+                    </div>
+                    <div class="answer_wrap">
+                        <div class="expert_des f28" flex="main:justify">
+                            <a href="expert_details.html" class="info_wrap flex1" flex>
+                                <img src="images/avatar.jpg" alt="">
+                                <div class="txt_wrap color flex1">
+                                    <h4>雷玉山</h4>
+                                    <h3 class="f36 maincolor mt10">首席科学家</h3>
+                                </div>
+                            </a>
+                            <a class="btn bluebg white radius4" href="">提问</a>
+                        </div>
+                        <div class="answer_con pr">
+                            <i class="pa arrow_t"></i>
+                            <div class="details f28 radius10">
+                                <p class="color">抹芽时间和标准</p>
+                                <p class="colorlight">抹芽时间选在能够明显辨认芽体质量时，过早抹芽，芽体质量无法确认，过晚抹芽，养分无效消耗过多。一般在树冠80%的芽长到3-5厘米时开始抹芽，正常结果树结果母枝抹芽后芽间距保持在15-20厘米，抹芽后每平方米留芽20-25芽。</p>
+                                <p class="color">抹芽时间和标准</p>
+                                <p class="colorlight">抹芽时间选在能够明显辨认芽体质量时，过早抹芽，芽体质量无法确认，过晚抹芽，养分无效消耗过多。一般在树冠80%的芽长到3-5厘米时开始抹芽，正常结果树结果母枝抹芽后芽间距保持在15-20厘米，抹芽后每平方米留芽20-25芽。</p>
+                                <p class="color">抹芽时间和标准</p>
+                                <p class="colorlight">抹芽时间选在能够明显辨认芽体质量时，过早抹芽，芽体质量无法确认，过晚抹芽，养分无效消耗过多。一般在树冠80%的芽长到3-5厘米时开始抹芽，正常结果树结果母枝抹芽后芽间距保持在15-20厘米，抹芽后每平方米留芽20-25芽。</p>
+                                <time class="tr grey mt30">2018-01-01 00:00:00</time>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <a class="btn bluebg white radius4" href="">提问</a>
             </div>
-            <div class="answer_con pr">
-                <i class="pa arrow_t"></i>
-                <div class="details f28 radius10">
-                    <p class="color">抹芽时间和标准</p>
-                    <p class="colorlight">抹芽时间选在能够明显辨认芽体质量时，过早抹芽，芽体质量无法确认，过晚抹芽，养分无效消耗过多。一般在树冠80%的芽长到3-5厘米时开始抹芽，正常结果树结果母枝抹芽后芽间距保持在15-20厘米，抹芽后每平方米留芽20-25芽。</p>
-                    <p class="color">抹芽时间和标准</p>
-                    <p class="colorlight">抹芽时间选在能够明显辨认芽体质量时，过早抹芽，芽体质量无法确认，过晚抹芽，养分无效消耗过多。一般在树冠80%的芽长到3-5厘米时开始抹芽，正常结果树结果母枝抹芽后芽间距保持在15-20厘米，抹芽后每平方米留芽20-25芽。</p>
-                    <p class="color">抹芽时间和标准</p>
-                    <p class="colorlight">抹芽时间选在能够明显辨认芽体质量时，过早抹芽，芽体质量无法确认，过晚抹芽，养分无效消耗过多。一般在树冠80%的芽长到3-5厘米时开始抹芽，正常结果树结果母枝抹芽后芽间距保持在15-20厘米，抹芽后每平方米留芽20-25芽。</p>
-                </div>
-            </div>
+            <!-- off-canvas backdrop -->
+            <div class="mui-off-canvas-backdrop"></div>
         </div>
-    </article>
-    <script src="js/fastclick.js"></script>
+    </div>
+    <script src="js/mui.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

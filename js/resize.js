@@ -5,6 +5,7 @@
         else {
             var user_webset_font=getComputedStyle(doc.documentElement,false)['fontSize'];
         }
+        var xs=parseFloat(user_webset_font)/16;
         var view_jsset_font,result_font;
         var docEl = doc.documentElement,
         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
@@ -15,7 +16,8 @@
             if(!doc.addEventListener) return;
             if(clientWidth<540){
                 view_jsset_font=75 * (clientWidth / 750);
-                docEl.style.fontSize = view_jsset_font + 'px';
+                result_font=view_jsset_font/xs;
+                docEl.style.fontSize = result_font + 'px';
                 }
             else{
                 docEl.style.fontSize = 54 + 'px';
