@@ -33,8 +33,8 @@
 
 /*走进佰瑞*/
 .about_wrap img,.trace_wrap img{display:block}
-.about_wrap img{height:4.8rem}
-.trace_wrap img{height:3.266667rem}
+.about_wrap img{height:4.8rem;width: 100%}
+.trace_wrap img{height:3.266667rem;width: 100%}
 .about_wrap a:not(:last-child){margin-bottom:0.133333rem}
 .about_wrap a p{padding:0 0.4rem;line-height:1.2rem;background:#fff}
 /*溯源*/
@@ -170,7 +170,7 @@
   .trace_details .nav{margin:0.133333rem 0.4rem}
   .trace_details .nav a{height:2.666667rem;background-size:2.266667rem;background-repeat: no-repeat;background-position: 50%}
   .trace_details .nav .nav1{background-image: url('../images/trace/trace1.png')}
-  .trace_details .nav .nav2{background-image: url('../images/trace/trace3.png')}
+  .trace_details .nav .nav2{background-image: url('../images/trace/trace2.png')}
   .trace_details .nav .nav3{background-image: url('../images/trace/trace3.png')}
   .trace_details .nav .nav4{background-image: url('../images/trace/trace4.png')}
   .trace_details .nav .nav5{background-image: url('../images/trace/trace5.png')}
@@ -178,3 +178,17 @@
   .trace_details .nav .nav7{background-image: url('../images/trace/trace7.png')}
   .trace_details .nav .nav8{background-image: url('../images/trace/trace8.png')}
   .trace_details .nav .nav9{background-image: url('../images/trace/trace9.png')}
+
+ .f_btn,.f_btn .btn{height: 1.333333rem}
+  .f_btn .btn{border:none;border-radius: 0}
+
+  .f_chart{background: #0c1124;height: 1.68rem;line-height: 0.346667rem}
+  .f_chart a{height: 1.68rem;padding-top:0.186667rem}
+  .f_chart .active{background: #122137}
+  .f_chart i{height: 0.853333rem;display: block;margin-bottom:0.133333rem;background-size: 0.853333rem}
+  .i_chart1{background: url('../images/inner/chart1.png') 50% no-repeat}
+  .i_chart2{background: url('../images/inner/chart2.png') 50% no-repeat}
+  .i_chart3{background: url('../images/inner/chart3.png') 50% no-repeat}
+  .i_chart4{background: url('../images/inner/chart4.png') 50% no-repeat}
+  .i_chart5{background: url('../images/inner/chart5.png') 50% no-repeat}
+  .chart_bg{background:#0c2b4a}

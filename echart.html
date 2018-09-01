@@ -10,6 +10,7 @@
     <script src="js/resize.js"></script>
     <link rel="stylesheet" href="css/mui.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/micro.css">
 </head>
 
 <body>
@@ -43,15 +44,17 @@
                 <a href="">产业分布</a>
                 <a class="active" href="">数据展示</a>
             </div>
-            <div class="mui-content mui-scroll-wrapper">
+            <footer class="mui-bar mui-bar-tab f_chart f26 tc white" flex="box:mean">
+                <a class="active" href=""><i class="i_chart1"></i><p>降水</p></a>
+                <a href=""><i class="i_chart2"></i><p>温度</p></a>
+                <a href=""><i class="i_chart3"></i><p>湿度</p></a>
+                <a href=""><i class="i_chart4"></i><p>风速风向</p></a>
+                <a href=""><i class="i_chart5"></i><p>光照</p></a>
+            </footer>
+            <div class="mui-content mui-scroll-wrapper chart_bg">
                 <div class="mui-scroll">
-                    <div class="chart_wrap f28 mt30 pdlr20 tc" flex="wrap">
-                        <li>echart图表</li>
-                        <li>echart图表</li>
-                    </div>
-                    <div class="chart_wrap f28 mb60 pdlr20 tc">
-                        <li>echart图表</li>
-                        <li>echart图表</li>
+                    <div class="chart_wrap f28 mt30 pdlr20 tc white" flex="wrap">
+                        echart图表
                     </div>
                 </div>
             </div>

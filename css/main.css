@@ -146,6 +146,8 @@ article{max-width:540px;margin-left:auto;margin-right:auto}
 .mui-bar-nav~.mui-content{padding-top:1.2rem}
 .tab_nav~.mui-content{padding-top:2.266667rem}
 .f_nav~.mui-content{padding-bottom: 1.466667rem}
+.f_btn~.mui-content{padding-bottom:1.333333rem}
+.f_chart~.mui-content{padding-bottom:1.68rem}
 
 header.mui-bar{height:1.2rem;line-height:1.2rem}
 
@@ -222,11 +224,17 @@ aside.mui-off-canvas-right{background:url(../images/aside_bg.jpg) 50% no-repeat;
 .aside_nav .active{background:rgba(0,0,0,.36);border-bottom:none}
 
 .chart_wrap li{border:1px solid #ddd;height:4.533333rem;margin-bottom:0.266667rem}
-.chart_wrap[flex] li{width:4.6rem;}
-.chart_wrap[flex] li:not(:nth-child(2n+0)){margin-right:0.266667rem}
+
 .tab_nav{height:1.066667rem;line-height:1.066667rem;border-bottom:1px solid #eee;position:absolute;top:1.2rem;width:100%;z-index:10}
 
 .tab_nav .active:before{content:'';position:absolute;width:1.2rem;height:0.066667rem;bottom:0;left:50%;margin-left:-0.6rem;-webkit-border-radius:0.08rem 0.08rem 0 0;border-radius:0.08rem 0.08rem 0 0}
+
+.table-responsive{-ms-overflow-style:-ms-autohiding-scrollbar;-webkit-overflow-scrolling:touch;overflow-x:auto;margin-bottom:0}
+body .news_body table{width: 100% !important;max-width: 100%}
+table tr{border: 1px solid #ebebef}
+thead{background: #f4f5f9;}
+th{white-space: nowrap}
+th,td{padding:0.32rem 0.133333rem}
 
 @media (min-width:540px){
 	.mui-off-canvas-wrap .mui-inner-wrap,.mui-off-canvas-wrap,.mui-content,.tab_nav{
