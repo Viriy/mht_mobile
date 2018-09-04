@@ -139,7 +139,7 @@ img{max-width:100%}
 
 @font-face{font-family:"kiwifont";src:url('../fonts/kiwifont.eot?t=1535010906332');src:url('../fonts/kiwifont.eot?t=1535010906332#iefix') format('embedded-opentype'),url('../fonts/kiwifont.ttf?t=1535010906332') format('truetype'),url('../fonts/kiwifont.svg?t=1535010906332#kiwifont') format('svg');}
 [class^="icon_"],[class*="icon_"]{font-family:"kiwifont" !important;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;vertical-align:middle}
-.icon_add:before{content:"\e82f";}.icon_add1:before{content:"\e830";}.icon_aside1:before{content:"\e838";}.icon_aside2:before{content:"\e831";}.icon_aside3:before{content:"\e832";}.icon_aside4:before{content:"\e833";}.icon_aside5:before{content:"\e834";}.icon_back:before{content:"\e835";}.icon_aside6:before{content:"\e836";}.icon_aside7:before{content:"\e837";}.icon_search:before{content:"\e839";}.icon_notice:before{content:"\e83a";}.icon_menu:before{content:"\e83b";}.icon_time:before{content:"\e83c";}.icon_time1:before{content:"\e83e";}.icon_view:before{content:"\e83f";}.icon_user:before{content:"\e840"}.icon_user1:before{content:"\e83d";}.icon_more:before {content: "\e6a7"}
+.icon_add:before{content:"\e82f";}.icon_add1:before{content:"\e830";}.icon_aside1:before{content:"\e838";}.icon_aside2:before{content:"\e831";}.icon_aside3:before{content:"\e832";}.icon_aside4:before{content:"\e833";}.icon_aside5:before{content:"\e834";}.icon_back:before{content:"\e835";}.icon_aside6:before{content:"\e836";}.icon_aside7:before{content:"\e837";}.icon_search:before{content:"\e839";}.icon_notice:before{content:"\e83a";}.icon_menu:before{content:"\e83b";}.icon_time:before{content:"\e83c";}.icon_time1:before{content:"\e83e";}.icon_view:before{content:"\e83f";}.icon_user:before{content:"\e840"}.icon_user1:before{content:"\e83d";}.icon_more:before {content: "\e6a7"}.icon_chart:before { content: "\e843"}
 
 
 article{max-width:540px;margin-left:auto;margin-right:auto}
@@ -148,6 +148,8 @@ article{max-width:540px;margin-left:auto;margin-right:auto}
 .f_nav~.mui-content{padding-bottom: 1.466667rem}
 .f_btn~.mui-content{padding-bottom:1.333333rem}
 .f_chart~.mui-content{padding-bottom:1.68rem}
+
+.f_nav{line-height: 0.346667rem}
 
 header.mui-bar{height:1.2rem;line-height:1.2rem}
 
@@ -177,6 +179,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#232d54', endC
 .info_wrap h3{line-height:0.613333rem;text-align:justify}
 
 .news_head{padding:0.533333rem .266667rem 0.453333rem}
+.news_head h2{line-height:0.613333rem}
 .news_body{padding-bottom:1.066667rem;line-height:0.613333rem;text-align:justify}
 
 .user_info{padding:0.266667rem 0.4rem}

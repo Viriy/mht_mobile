@@ -3,6 +3,11 @@
 mui('.offCanvasSideScroll').scroll();
 mui('.offCanvasContentScroll').scroll();
 mui('.mui-scroll-wrapper').scroll();
+//阻止手势侧滑
+document.getElementsByClassName('mui-inner-wrap')[0].addEventListener('drag', function(event) {
+event.stopPropagation();
+});
+
 //实现ios平台原生侧滑关闭页面；
 if (mui.os.plus && mui.os.ios) {
     mui.plusReady(function() { //5+ iOS暂时无法屏蔽popGesture时传递touch事件

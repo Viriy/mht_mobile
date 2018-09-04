@@ -185,10 +185,15 @@
   .f_chart{background: #0c1124;height: 1.68rem;line-height: 0.346667rem}
   .f_chart a{height: 1.68rem;padding-top:0.186667rem}
   .f_chart .active{background: #122137}
-  .f_chart i{height: 0.853333rem;display: block;margin-bottom:0.133333rem;background-size: 0.853333rem}
+  .f_chart i{height: 0.853333rem;line-height: 0.853333rem;display: block;margin-bottom:0.133333rem;background-size: 0.853333rem}
   .i_chart1{background: url('../images/inner/chart1.png') 50% no-repeat}
   .i_chart2{background: url('../images/inner/chart2.png') 50% no-repeat}
   .i_chart3{background: url('../images/inner/chart3.png') 50% no-repeat}
   .i_chart4{background: url('../images/inner/chart4.png') 50% no-repeat}
   .i_chart5{background: url('../images/inner/chart5.png') 50% no-repeat}
   .chart_bg{background:#0c2b4a}
+
+  .i_c1{background: url('../images/inner/c1.png') 50% no-repeat;background-size: 0.8rem}
+  .i_c2{background: url('../images/inner/c2.png') 50% no-repeat;background-size: 0.8rem}
+  .i_c3{background: url('../images/inner/c3.png') 50% no-repeat;background-size: 0.8rem}
+  .i_c4{background: url('../images/inner/c4.png') 50% no-repeat;background-size: 0.8rem}
