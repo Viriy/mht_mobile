@@ -197,3 +197,15 @@
   .i_c2{background: url('../images/inner/c2.png') 50% no-repeat;background-size: 0.8rem}
   .i_c3{background: url('../images/inner/c3.png') 50% no-repeat;background-size: 0.8rem}
   .i_c4{background: url('../images/inner/c4.png') 50% no-repeat;background-size: 0.8rem}
+
+  .notice_wrap,.swiper_notice{height:40px;line-height: 40px}
+
+  @media (min-width:540px){
+    .notice_wrap,.swiper_notice{height:64px;line-height:64px}
+  }
+  @media (min-width:414px){
+    .notice_wrap,.swiper_notice{height:50px;line-height:50px}
+  }
+  @media (max-width:320px){
+    .notice_wrap,.swiper_notice{height:36px;line-height:36px}
+  }

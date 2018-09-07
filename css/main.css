@@ -6,7 +6,7 @@
 ::selection{background:#f2c115;color:#fff}
 ::-moz-selection{background:#f2c115;color:#fff}
 
-.ellipsis,.answer_wrap .info_wrap h3{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ellipsis,.answer_wrap .info_wrap h3,.swiper_notice a{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ellipsis2,.ellipsis3,.news_list a h3{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
 .ellipsis2,.news_list a h3{-webkit-line-clamp:2}
 .ellipsis3{-webkit-line-clamp:3}
@@ -46,6 +46,7 @@ p{margin-bottom:0;font-size:0.346667rem}
 .f60{font-size:.8rem}
 .f68{font-size:.906667rem}
 .f70{font-size: 0.933333rem}
+.f80{font-size:1.066667rem}
 
 a{text-decoration:none}
 a:active{color:initial}

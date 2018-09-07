@@ -48,11 +48,24 @@
                 <div class="mui-scroll">
                     <div class="swiper-container swiper_home">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="images/bar.jpg" alt=""></div>
-                            <div class="swiper-slide"><img src="images/news_img.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/bar1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/bar2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/bar3.jpg" alt=""></div>
                         </div>
                         <!-- 如果需要分页器 -->
                         <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="notice_wrap pdlr30 bgfff" flex>
+                        <i class="icon_notice blue f80 mr30"></i>
+                        <div class="swiper-container swiper_notice flex1 f30 colorlight">
+                            <div class="swiper-wrapper">
+                                <a href="" class="swiper-slide">1猕猴桃彭果期需求最大的几个元素，你知道吗？</a>
+                                <a href="" class="swiper-slide">2猕猴桃彭果期需求最大的几个元素，你知道吗？</a>
+                                <a href="" class="swiper-slide">3猕猴桃彭果期需求最大的几个元素，你知道吗？</a>
+                                <a href="" class="swiper-slide">4猕猴桃彭果期需求最大的几个元素，你知道吗？</a>
+                                <a href="" class="swiper-slide">5猕猴桃彭果期需求最大的几个元素，你知道吗？</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="menu_type tc colorlight f32 mt30" flex="wrap">
                         <a href="about.html"><i></i><p>走进佰瑞</p></a>
@@ -127,12 +140,18 @@
     <script type="text/javascript">
     var mySwiper = new Swiper('.swiper_home', {
         loop: true,
-        navigation:false,
+        navigation: false,
+        autoplay:true,
 
         // 如果需要分页器
         pagination: {
             el: '.swiper-pagination',
         },
+    })
+    var noticeSwiper = new Swiper('.swiper_notice', {
+        direction: 'vertical',
+        autoplay:true,
+        loop: true,
     })
     </script>
     </script>
