@@ -206,6 +206,9 @@
   @media (max-width:414px){
     .notice_wrap,.swiper_notice{height:50px;line-height:50px}
   }
+  @media (max-width:375px){
+    .notice_wrap,.swiper_notice{height:40px;line-height: 40px}
+  }
   @media (max-width:320px){
     .notice_wrap,.swiper_notice{height:36px;line-height:36px}
   }
