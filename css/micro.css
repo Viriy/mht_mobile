@@ -203,7 +203,7 @@
   @media (min-width:540px){
     .notice_wrap,.swiper_notice{height:64px;line-height:64px}
   }
-  @media (min-width:414px){
+  @media (max-width:414px){
     .notice_wrap,.swiper_notice{height:50px;line-height:50px}
   }
   @media (max-width:320px){
