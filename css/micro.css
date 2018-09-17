@@ -33,7 +33,7 @@
 
 /*走进佰瑞*/
 .about_wrap img,.trace_wrap img{display:block}
-.about_wrap img{height:4.8rem;width: 100%}
+.about_wrap img{height:4.8rem;width:10rem}
 .trace_wrap img{height:3.266667rem;width: 100%}
 .about_wrap a:not(:last-child){margin-bottom:0.133333rem}
 .about_wrap a p{padding:0 0.4rem;line-height:1.2rem;background:#fff}

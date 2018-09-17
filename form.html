@@ -126,10 +126,10 @@
         var imgList = document.getElementsByClassName("z_addImg");
         for (var j = 0; j < imgList.length; j++) {
             imgList[j].index = j;
-            imgList[j].onclick = function() {
+            imgList[j].addEventListener("tap", function() {
                 var t = this;
                 t.style.display = "none";
-            }
+            });
         };
     };
     </script>
